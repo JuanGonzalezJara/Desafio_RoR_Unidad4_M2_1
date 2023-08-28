@@ -33,7 +33,6 @@ def photos_count(camera)
         nombre_camara = c[:camera][:name]
         cantidad_fotos[nombre_camara] += 1
     end
-
     puts cantidad_fotos
 end
 
